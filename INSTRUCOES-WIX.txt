@@ -1,0 +1,31 @@
+BIOMAS ESG — Integração no Wix
+================================
+
+Pasta do projeto: C:\Cursor\Biomas
+
+ARQUIVOS
+- site/index.html     → visualizar no navegador (duplo clique)
+- site/css/biomas.css → estilos (escopo .biomas)
+- site/js/biomas.js   → abas + carrossel
+- imagens/            → logos e passaros-01 a passaros-10.jpeg
+
+IMAGENS
+Fixas nas seções:
+  passaros-01 → fundo do hero
+  passaros-02 → aba Início (benefícios)
+  passaros-03 → aba Sobre (banner)
+  passaros-04 e 05 → fotos Equipe (Camila e Yara)
+  passaros-08 → aba Conteúdo
+  passaros-10 → aba Contato
+
+Carrossel (sem legenda): passaros-06, 07, 08, 09 na aba Início
+
+NO WIX
+1. Envie todas as imagens em Gerenciador de Mídia do Wix.
+2. Adicione elemento "HTML personalizado" ou "Incorporar HTML".
+3. Cole o conteúdo de index.html (sem <html>/<body> se o Wix pedir só o bloco interno).
+4. Substitua ../imagens/ pelas URLs do Wix (ex.: https://static.wixstatic.com/media/...).
+5. Hospede biomas.css e biomas.js no Wix ou cole o CSS dentro de <style> e o JS no final do embed.
+
+Abas principais: Início | Sobre | Equipe | Serviços | Conteúdo | Perguntas frequentes | Contato
+Abas de serviços: cada item da Jornada ESG abre ao clicar.
