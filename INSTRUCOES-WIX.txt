@@ -14,7 +14,7 @@ Fixas nas seções:
   passaros-01 → fundo do hero
   passaros-02 → aba Início (benefícios)
   passaros-03 → aba Sobre (banner)
-  Camila.png e Iara.png → fotos Equipe
+  Camila.png e Yara.png → fotos Equipe
   passaros-08 → aba Conteúdo
   passaros-10 → aba Contato
 
