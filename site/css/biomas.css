@@ -935,44 +935,6 @@
   border-bottom: none;
 }
 
-.biomas .bio-about-founders {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-  margin-top: 36px;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.biomas .bio-about-founder {
-  margin: 0;
-  text-align: center;
-}
-
-.biomas .bio-about-founder .bio-team-photo-frame {
-  min-height: 240px;
-  margin-bottom: 12px;
-}
-
-.biomas .bio-about-founder .bio-team-photo--person {
-  max-height: min(320px, 50vh);
-}
-
-.biomas .bio-about-founder figcaption {
-  font-family: var(--bio-font-serif);
-  font-size: 1.25rem;
-  color: var(--bio-teal);
-  font-weight: 600;
-}
-
-@media (max-width: 640px) {
-  .biomas .bio-about-founders {
-    grid-template-columns: 1fr;
-    max-width: 320px;
-  }
-}
-
 .biomas .bio-section--nature {
   background: linear-gradient(180deg, var(--bio-mist) 0%, var(--bio-bg-soft) 100%);
 }
