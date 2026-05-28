@@ -781,13 +781,64 @@
   }
 }
 
-.biomas .bio-service-panel__img {
-  border-radius: var(--bio-radius);
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.biomas .bio-service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  box-shadow: 0 8px 24px rgba(45, 106, 90, 0.15);
+  max-width: 200px;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: linear-gradient(145deg, var(--bio-mist) 0%, rgba(143, 185, 154, 0.35) 100%);
+  box-shadow: 0 8px 28px rgba(0, 169, 165, 0.12);
+  border: 2px solid var(--bio-border);
+}
+
+@media (min-width: 768px) {
+  .biomas .bio-service-icon {
+    margin: 0;
+    max-width: none;
+    width: 200px;
+    height: 200px;
+    aspect-ratio: auto;
+  }
+}
+
+.biomas .bio-service-icon svg {
+  width: 56%;
+  height: 56%;
+  display: block;
+}
+
+.biomas .bio-service-icon .bio-icon-stroke {
+  fill: none;
+  stroke: var(--bio-teal-dark);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.biomas .bio-service-icon .bio-icon-fill {
+  fill: var(--bio-teal);
+}
+
+.biomas .bio-service-icon .bio-icon-accent {
+  fill: var(--bio-lime);
+}
+
+.biomas .bio-service-icon .bio-icon-soft {
+  fill: var(--bio-sage);
+  opacity: 0.55;
+}
+
+.biomas .bio-service-icon .bio-icon-forest {
+  fill: var(--bio-forest);
+}
+
+.biomas .bio-service-icon .bio-icon-sky {
+  fill: var(--bio-sky);
+  opacity: 0.85;
 }
 
 .biomas .bio-service-panel h3 {
