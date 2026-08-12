@@ -1,0 +1,14 @@
+BIOMAS — Supabase + Cursor
+==========================
+
+Projeto: https://supabase.com/dashboard/project/egwvebwvctcfzfttwilf
+Project ref: egwvebwvctcfzfttwilf
+
+1) Cursor MCP
+- Settings → MCP → ative o servidor "supabase"
+- Faça login no navegador quando pedir
+
+2) CLI (PowerShell novo)
+  supabase login
+  cd C:\Cursor\Biomas
+  supabase link --project-ref egwvebwvctcfzfttwilf

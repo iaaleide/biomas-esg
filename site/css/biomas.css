@@ -194,7 +194,6 @@
   font-family: var(--bio-font-serif);
   font-size: 1.05rem;
   letter-spacing: 0.28em;
-  text-transform: lowercase;
   margin: 0 0 20px;
   color: var(--bio-white);
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
@@ -777,7 +776,8 @@
 
 @media (min-width: 768px) {
   .biomas .bio-service-panel__inner {
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: 1fr 200px;
+    align-items: center;
   }
 }
 
